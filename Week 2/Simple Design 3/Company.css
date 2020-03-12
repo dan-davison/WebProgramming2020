@@ -1,0 +1,117 @@
+html, body {
+    background-color: rgb(78, 4, 4);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    height: 25px;
+        
+}
+
+.banner {
+    text-align: center;
+
+        
+}
+
+
+.main {
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+    height: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.published-date {
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.h1 {
+    align-self: auto;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.h2 {
+    align-self: auto;
+    text-align: left;
+
+}
+
+.secondary {
+    border-color: grey;
+    border-style: dashed;
+    border-width: 1px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.link {
+text-decoration: none;
+color: black;
+font-weight: bold;
+font-size: larger;
+}
+
+.list-box1 {
+    background-color: rgb(129, 55, 55);
+    font-size: 0;
+    
+    
+}
+
+.list-box2 {
+    background-color: rgb(128, 90, 90);
+    font-size: 0;
+}
+
+.date-box {
+    display: inline-block;
+    width: 30%;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+
+.list-box1 .information {
+    color: white;
+    display: inline-block;
+    width: 70%;
+    font-size: 16px;
+}
+
+.list-box2 .information {
+    color: white;
+    display: inline-block;
+    width: 70%;
+    font-size: 16px;
+}
+
+.date {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.month {
+    color:  rgb(78, 4, 4);
+    font-size: 10px;
+}
+
