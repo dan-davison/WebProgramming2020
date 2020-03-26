@@ -1,6 +1,6 @@
 html, body {
     margin: 0;
-    background-color: white;
+    background-color: rgb(78, 78, 78);
 }
 
 .header {
@@ -56,6 +56,10 @@ p {
     text-align: left;
     padding: 20px;
 
+}
+
+.signature{
+    font-style: italic;
 }
 
 .button {

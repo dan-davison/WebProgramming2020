@@ -1,0 +1,144 @@
+/* ----------------------------------------Body Contents---------------------------------------- */
+
+html, body {
+    background-color: rgb(26, 29, 56);
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 700px;
+    height:550px;
+    background-color: rgb(42, 48, 102);
+    padding: 50px;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+/* -----------------------+-----------------Buttons---------------------------------------- */
+
+.FB {
+    font-family: 'Spartan', sans-serif;
+    background-color: rgb(0, 71, 119);
+    padding: 10px 10px;
+    color: white;
+    width: 50%;
+    box-sizing: border-box;
+    border:none;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+
+.TB{
+
+    font-family: 'Spartan', sans-serif;
+    background-color: rgb(0, 153, 255);
+    padding: 10px 10px;
+    color: white;
+    width: 50%;
+    box-sizing: border-box;
+    border:none;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.1s;
+  
+}
+
+.FB:hover {
+    background-color: rgb(1, 89, 148);
+ 
+}
+
+.TB:hover {
+    background-color: rgb(70, 181, 255);
+ 
+}
+
+.create  {
+    background-color: rgb(44, 119, 66);
+    width: 100%;
+    padding: 20px 20px;
+    color: white;
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    font-family: 'Spartan', sans-serif;
+    
+}
+
+.create:hover {
+    background-color: rgb(69, 172, 100);
+ 
+}
+
+.link  {
+
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+
+}
+
+/* ----------------------------------------Inputs---------------------------------------- */
+
+form .sideInputs{
+    font-size: 0px;
+}
+
+
+form .sideInputs div{
+    display: inline-block;
+    width: 50%;
+    font-size: 14px;
+    padding: 20px 2px;
+}
+
+form .sideInputs div input{
+    width: 100%;
+}
+
+.emailInput {
+    width: 100%;
+    font-size: 14px;
+    padding: 15px 2px;
+    
+}
+
+.passInput {
+    width: 100%;
+    font-size: 14px;
+    padding: 15px 2px;
+    
+}
+
+input[type=name] {
+    background-color: whitesmoke;
+    color: rgb(70, 70, 70);
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 100;
+    border:none;
+}
+
+input[type=password] {
+    background-color: whitesmoke;
+    color: rgb(70, 70, 70);
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 50;
+    box-sizing: border-box;
+    border:none;
+}
+
